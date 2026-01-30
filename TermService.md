@@ -1,44 +1,68 @@
-# TERMS OF SERVICE
+# 小猫影子跟读（MeowShadowing）服务条款
 
+生效日期：2026-01-30
 
-This agreement is between App, Best Vault (“App”) and users of  App’s products, services, and websites (“You”).
+欢迎您使用「小猫影子跟读（MeowShadowing）」（以下简称“本应用”或“我们”）。请您在使用前仔细阅读本服务条款（以下简称“本条款”）。您下载、安装、访问或使用本应用，即表示您已阅读并同意受本条款约束。
 
-# YOUR ACCEPTANCE
-By installing, using, or accessing App’s products, services, or websites (collectively the “Service”) You signify your agreement to (1) these terms and conditions (the “Terms of Service”), (2) App’s Privacy Policy, found at: https://github.com/BestVault/Declares/blob/master/Privacy.md incorporated herein by reference.
-App may, in its sole discretion, modify or revise the Terms of Service at any time, and You agree to be bound by such modifications or revisions.
+## 1. 定义
 
-# GENERAL USE OF THE SERVICE
-App grants You permission to access and use the Service as set forth in the Terms of Service, provided that:
+- **服务**：指本应用提供的音频/视频播放、词级字幕同步、单词难度标注（如 CEFR）、跟读录音（Shadowing）、生词本与闪卡等功能。
+- **用户内容**：指您在本应用中导入/创建/生成并保存在设备上的内容，包括但不限于音频/视频文件、录音、字幕/转录文本（如有）、学习数据等。
 
-You agree not to alter or modify any part of the Service.
-You agree not to use the Service for any of the following commercial uses unless you obtain App’s prior written approval:
-the sale of access to the Service; or
-the sale of advertising, sponsorships, or promotions placed on or within the Service, including any content shared on the Service.
-In your use of the Service, You will comply with all applicable laws.
-App reserves the right to discontinue any aspect of the Service at any time.
-# YOUR USE OF CONTENT
-In addition to the general restrictions above, the following restrictions and conditions apply specifically to your use of App content (“Content”):
+## 2. 许可与使用限制
 
-Content on the Service, and the trademarks, service marks and logos on the Service, are owned by or licensed to App, subject to copyright and other intellectual property rights under the law.
-You may access Content for your personal use solely as intended through the provided functionality of the Service and as permitted under the Terms of Service. You shall not copy, distribute, broadcast, sell, license, or otherwise exploit any Content for any other purposes without the prior written consent of App or the respective licensors of the Content. App and its licensors reserve all rights not expressly granted in and to the Service and the Content.
-You agree not to circumvent, disable or otherwise interfere with security-related features of the Service or features that prevent or restrict use or copying of any Content or enforce limitations on use of the Service or the Content therein.
-You understand and acknowledge that You may be exposed to Content that is inaccurate, offensive, indecent, or objectionable, and You agree to waive, and hereby do waive, any legal or equitable rights or remedies You have or may have against App with respect thereto, and, to the extent permitted by applicable law, agree to indemnify and hold harmless App, its owners, operators, affiliates, licensors, and licensees to the fullest extent allowed by law regarding all matters related to your use of the Service.
-# BILLING
-If You purchase products or services directly from App, You authorize App to charge You the applicable fees, including any ongoing charges for subscription renewals, through the designated payment method. You understand and acknowledge that App may adjust the pricing for its products and services in the future and that You will be charged such adjusted fees on a going forward-basis after notice to You from App. If You purchase a subscription from App, your subscription will automatically renew at the end of each subscription term until You cancel the subscription. If You cancel a subscription, Your subscription will terminate at the end of Your current subscription period. You acknowledge that any payments You make to App are non-refundable. App may, at its discretion, provide You with a credit or refund, but such issuance of a credit or refund does not obligate App to provide You credits or refunds in the future.
+在您遵守本条款的前提下，我们授予您一项个人的、可撤销的、不可转让的、非排他性的许可，以在您拥有或控制的设备上使用本应用。
 
-# WARRANTY DISCLAIMER
-YOU AGREE THAT YOUR USE OF THE SERVICES SHALL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, App ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICE AND YOUR USE THEREOF. App ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF App’S SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICE BY ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT MADE AVAILABLE VIA THE SERVICE. App DOES NOT ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SERVICE OR FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND App WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.
+您不得：
 
-# LIMITATION OF LIABILITY
-IN NO EVENT SHALL App, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICE, (III) ANY UNAUTHORIZED ACCESS TO OR USE OF App’S SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICE, (IV) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICE BY ANY THIRD PARTY, AND/OR (V) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF ANY CONTENT MADE AVAILABLE VIA THE SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT YOU ARE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.
+- 对本应用进行反向工程、反编译、反汇编，或尝试以其他方式获取源代码（法律允许的范围除外）；
+- 规避或破坏本应用或 iOS 系统的安全机制；
+- 将本应用用于违法用途，或以任何方式侵犯他人合法权益。
 
-YOU SPECIFICALLY ACKNOWLEDGE THAT App SHALL NOT BE LIABLE FOR CONTENT OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU.
+## 3. 用户内容与责任
 
-# INDEMNITY
-To the extent permitted by applicable law, You agree to defend, indemnify and hold harmless App, its officers, directors, employees and agents, from and against any and all claims, damages, obligations, losses, liabilities, and expenses (including but not limited to attorney’s fees) arising from: (i) your use of and access to the Service; (ii) your violation of any term of the Terms of Service; (iii) your violation of any third party right, including without limitation any copyright, property, or privacy right; or (iv) any claim that your Content caused damage to a third party. This defense and indemnification obligation will survive the Terms of Service and your use of the Service.
+### 3.1 内容来源与权利
+您应确保对您导入、录制或使用的内容拥有合法权利或已获得必要授权，包括但不限于版权、肖像权、隐私权等。因您使用的内容引发的任何争议或损失，由您自行承担。
 
-# ABILITY TO ACCEPT TERMS OF SERVICE
-You affirm that you are either 13 years of age or older, an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into and comply with the terms, conditions, obligations, affirmations, representations, and warranties set forth in the Terms of Service.
+### 3.2 本地优先
+本应用以本地处理为主。我们不要求您创建账户，也不会主动上传您的用户内容到我们的服务器（详见《隐私政策》）。
 
-# ASSIGNMENT
-The Terms of Service, and any rights and licenses granted hereunder, may not be transferred or assigned by You, but may be assigned by App without restriction.
+## 4. 隐私政策
+
+我们非常重视您的隐私。请阅读并理解《隐私政策》：
+
+- Privacy.md（本仓库内）
+
+本条款与《隐私政策》共同构成您与我们之间关于本应用使用的完整协议。
+
+## 5. 购买与订阅（如适用）
+
+如本应用提供内购项目/订阅服务，相关购买由 Apple App Store 处理并受其规则约束。具体价格、周期、自动续费、取消方式以 App Store 展示与 Apple 规则为准。
+
+## 6. 免责声明
+
+在法律允许的最大范围内：
+
+- 本应用按“现状”提供。我们不保证服务完全无中断、无错误或满足您所有需求。
+- 学习效果因人而异，我们不对因使用本应用产生的任何学习结果作出保证。
+
+## 7. 责任限制
+
+在法律允许的最大范围内，我们对因您使用或无法使用本应用所导致的任何间接损失、附带损失、特殊损失、惩罚性损失或后果性损失不承担责任。
+
+## 8. 终止
+
+如您违反本条款或法律法规，我们有权在合理范围内限制或终止您对本应用的使用许可。
+
+您可以随时停止使用并卸载本应用。
+
+## 9. 条款变更
+
+我们可能会在必要时更新本条款。更新后会在本页面发布并更新“生效日期”。您继续使用本应用即视为接受更新后的条款。
+
+## 10. 联系我们
+
+如您对本条款有任何疑问或需要技术支持，请通过以下方式联系我们：
+
+- 邮箱：nicedella2016@icloud.com
+- GitHub Issue：https://github.com/0owen/MeowShadowing/issues
