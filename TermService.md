@@ -1,68 +1,69 @@
-# 小猫影子跟读（MeowShadowing）服务条款
+# MeowShadowing Terms of Service
 
-生效日期：2026-01-30
+Effective date: 2026-01-30
 
-欢迎您使用「小猫影子跟读（MeowShadowing）」（以下简称“本应用”或“我们”）。请您在使用前仔细阅读本服务条款（以下简称“本条款”）。您下载、安装、访问或使用本应用，即表示您已阅读并同意受本条款约束。
+Welcome to MeowShadowing (the "App," "Service," "we," "us," or "our"). Please read these Terms of Service (the "Terms") carefully before using the App. By downloading, installing, accessing, or using the App, you confirm that you have read, understood, and agreed to be bound by these Terms.
 
-## 1. 定义
+## 1. Definitions
 
-- **服务**：指本应用提供的音频/视频播放、词级字幕同步、单词难度标注（如 CEFR）、跟读录音（Shadowing）、生词本与闪卡等功能。
-- **用户内容**：指您在本应用中导入/创建/生成并保存在设备上的内容，包括但不限于音频/视频文件、录音、字幕/转录文本（如有）、学习数据等。
+- **Service**: The features provided by the App, including audio or video playback, word-level subtitle synchronization, vocabulary difficulty labeling such as CEFR, shadowing recording, vocabulary collection, flashcards, and related learning tools.
+- **User Content**: Any content that you import, create, generate, or store in the App on your device, including audio or video files, recordings, subtitle or transcription text, and study data.
 
-## 2. 许可与使用限制
+## 2. License and Use Restrictions
 
-在您遵守本条款的前提下，我们授予您一项个人的、可撤销的、不可转让的、非排他性的许可，以在您拥有或控制的设备上使用本应用。
+Subject to your compliance with these Terms, we grant you a personal, revocable, non-transferable, non-exclusive license to use the App on devices that you own or control.
 
-您不得：
+You may not:
 
-- 对本应用进行反向工程、反编译、反汇编，或尝试以其他方式获取源代码（法律允许的范围除外）；
-- 规避或破坏本应用或 iOS 系统的安全机制；
-- 将本应用用于违法用途，或以任何方式侵犯他人合法权益。
+- Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the App, except where such restriction is prohibited by law;
+- Circumvent or interfere with the security features of the App or iOS;
+- Use the App for unlawful purposes or in any way that infringes the rights of others.
 
-## 3. 用户内容与责任
+## 3. User Content and Responsibility
 
-### 3.1 内容来源与权利
-您应确保对您导入、录制或使用的内容拥有合法权利或已获得必要授权，包括但不限于版权、肖像权、隐私权等。因您使用的内容引发的任何争议或损失，由您自行承担。
+### 3.1 Content Ownership and Rights
+You are responsible for ensuring that you have all necessary rights, permissions, and legal authority to import, record, or use any content in the App, including any copyright, portrait, privacy, or other rights. Any dispute or loss arising from your content is your responsibility.
 
-### 3.2 本地优先
-本应用以本地处理为主。我们不要求您创建账户，也不会主动上传您的用户内容到我们的服务器（详见《隐私政策》）。
+### 3.2 Local-First Design
+The App is designed around local processing. We do not require you to create an account, and we do not proactively upload your User Content to our servers as part of the normal workflow. Please also review the Privacy Policy for details.
 
-## 4. 隐私政策
+## 4. Privacy Policy
 
-我们非常重视您的隐私。请阅读并理解《隐私政策》：
+We take privacy seriously. Please read our Privacy Policy:
 
-- Privacy.md（本仓库内）
+- Privacy.md (included in this repository)
 
-本条款与《隐私政策》共同构成您与我们之间关于本应用使用的完整协议。
+These Terms and the Privacy Policy together form the complete agreement between you and us regarding your use of the App.
 
-## 5. 购买与订阅（如适用）
+## 5. Purchases and Subscriptions
 
-如本应用提供内购项目/订阅服务，相关购买由 Apple App Store 处理并受其规则约束。具体价格、周期、自动续费、取消方式以 App Store 展示与 Apple 规则为准。
+If the App offers in-app purchases or subscriptions, those transactions are handled by Apple App Store and governed by Apple's rules. Pricing, billing periods, auto-renewal, cancellation, and related matters are controlled by the App Store listing and Apple's policies.
 
-## 6. 免责声明
+## 6. Disclaimer
 
-在法律允许的最大范围内：
+To the maximum extent permitted by law:
 
-- 本应用按“现状”提供。我们不保证服务完全无中断、无错误或满足您所有需求。
-- 学习效果因人而异，我们不对因使用本应用产生的任何学习结果作出保证。
+- The App is provided on an "as is" basis.
+- We do not guarantee that the Service will be uninterrupted, error-free, or suitable for every specific purpose.
+- Learning outcomes vary by user, and we do not guarantee any specific educational result from using the App.
 
-## 7. 责任限制
+## 7. Limitation of Liability
 
-在法律允许的最大范围内，我们对因您使用或无法使用本应用所导致的任何间接损失、附带损失、特殊损失、惩罚性损失或后果性损失不承担责任。
+To the maximum extent permitted by law, we are not liable for any indirect, incidental, special, punitive, exemplary, or consequential damages arising out of or related to your use of, or inability to use, the App.
 
-## 8. 终止
+## 8. Termination
 
-如您违反本条款或法律法规，我们有权在合理范围内限制或终止您对本应用的使用许可。
+If you violate these Terms or applicable law, we may limit or terminate your license to use the App to the extent reasonably necessary.
 
-您可以随时停止使用并卸载本应用。
+You may stop using and uninstall the App at any time.
 
-## 9. 条款变更
+## 9. Changes to These Terms
 
-我们可能会在必要时更新本条款。更新后会在本页面发布并更新“生效日期”。您继续使用本应用即视为接受更新后的条款。
+We may update these Terms when necessary. If we do, we will post the revised version on this page and update the effective date. Your continued use of the App after the update means you accept the revised Terms.
 
-## 10. 联系我们
+## 10. Contact Us
 
-如您对本条款有任何疑问或需要技术支持，请通过以下方式联系我们：
+If you have any questions about these Terms or need technical support, please contact us:
 
-- 邮箱：nicedella2016@icloud.com
-- GitHub Issue：https://github.com/0owen/MeowShadowing/issues
+- Email: nicedella2016@icloud.com
+- GitHub Issues: https://github.com/0owen/MeowShadowing/issues

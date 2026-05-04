@@ -1,81 +1,83 @@
-# 小猫影子跟读（MeowShadowing）隐私政策
+# MeowShadowing Privacy Policy
 
-生效日期：2026-01-30
+Effective date: 2026-01-30
 
-我们非常重视您的隐私。本应用「小猫影子跟读（MeowShadowing）」（以下简称“本应用”）是一款**本地优先**的英语学习音频播放器：音频处理、字幕/转录（如有）以及学习数据的生成与保存均优先在您的设备上完成。
+We take your privacy seriously. MeowShadowing (the "App") is a **local-first** English learning app. Audio processing, subtitle or transcription generation, and learning data creation and storage are designed to happen on your device whenever possible.
 
-本隐私政策说明：我们是否收集您的哪些信息、这些信息如何使用与存储，以及您可以如何联系我们。
+This Privacy Policy explains what information we collect, how it is used and stored, and how you can contact us.
 
-## 1. 我们收集哪些信息
+## 1. Information We Collect
 
-### 1.1 我们不会收集或上传的内容
-在您使用本应用的过程中：
+### 1.1 Information We Do Not Collect or Upload
+While you use the App:
 
-- 我们**不会**建立用户账户体系，也不要求您提供姓名、手机号、身份证号等身份信息。
-- 我们**不会**将您的录音、导入的音频/视频文件、生成的字幕文本、学习进度、生词本、闪卡等学习数据上传至我们的服务器。
-- 我们**不会**收集或使用用于跨应用/跨网站跟踪的标识符（例如 IDFA）。
+- We **do not** require you to create an account.
+- We **do not** ask for identity information such as your legal name, phone number, or government ID.
+- We **do not** upload your recordings, imported audio or video files, generated subtitle text, study progress, vocabulary lists, or flashcards to our servers as part of the normal app workflow.
+- We **do not** collect or use identifiers for cross-app or cross-site tracking, including IDFA.
 
-### 1.2 设备端（本地）存储的数据
-为实现核心功能，本应用可能会在您的设备本地保存以下数据（仅存储在设备上）：
+### 1.2 Data Stored Locally on Your Device
+To provide the App's core features, the following data may be stored locally on your device only:
 
-- 您导入的音频/视频文件的引用信息（或您选择保存的副本）；
-- 跟读录音文件；
-- 字幕/转录结果（如有）、词级时间轴与高亮信息；
-- 学习进度、生词本、闪卡与复习记录等。
+- References to imported audio or video files, or copies you choose to save;
+- Shadowing recordings;
+- Subtitle or transcription results, word-level timing data, and highlighting information;
+- Study progress, saved vocabulary, flashcards, and review history.
 
-## 2. 设备权限与用途
+## 2. Device Permissions and Why They Are Used
 
-本应用可能会请求以下系统权限，且仅用于对应功能：
+The App may request the following system permissions only for the related features:
 
-- **麦克风**：用于“跟读录音（Shadowing）”功能。只有在您主动开始录音时才会录制。
-- **文件访问（文件 App / 导入）**：用于导入您选择的音频/视频文件（如 .mp3/.mp4/.mov 等）。
+- **Microphone**: Used for the shadowing recording feature. Recording starts only when you actively choose to record.
+- **File access / import access**: Used to import audio or video files you select, such as .mp3, .mp4, or .mov files.
 
-您可以在 iOS 系统设置中随时关闭相关权限；关闭后可能导致对应功能无法使用。
+You can disable these permissions at any time in iOS Settings. If you do, related features may stop working.
 
-## 3. 我们如何使用信息
+## 3. How Information Is Used
 
-由于本应用不收集并上传您的个人数据，我们对信息的使用主要发生在您的设备本地，用于：
+Because the App does not collect and upload your personal data as part of the normal workflow, information is primarily used locally on your device to:
 
-- 播放音频/视频并进行词级字幕同步；
-- 生成与展示单词难度标注（如 CEFR）；
-- 实现跟读录音、句子循环、对比原音等学习功能；
-- 维护生词本与闪卡复习。
+- Play audio or video with word-level subtitle synchronization;
+- Generate and display vocabulary difficulty annotations such as CEFR levels;
+- Provide shadowing recording, sentence looping, and source-audio comparison features;
+- Maintain vocabulary lists and flashcard review data.
 
-## 4. 第三方服务与数据共享
+## 4. Third-Party Services and Data Sharing
 
-我们不会向第三方出售您的个人信息。
+We do not sell your personal information to third parties.
 
-### 4.1 App Store 购买
-如果您通过 Apple App Store 购买本应用的付费内容（如有），支付由 Apple 处理。我们不会获取您的银行卡号等支付信息。
+### 4.1 App Store Purchases
+If you purchase paid content or services through Apple App Store, payment is handled by Apple. We do not receive your bank card or payment account details.
 
-### 4.2 系统服务
-本应用可能使用 iOS 系统提供的能力（例如音频播放、文件导入等）。这些能力由 Apple 提供与管理。
+### 4.2 System Services
+The App may rely on iOS system capabilities such as audio playback and file import. These services are provided and managed by Apple.
 
-## 5. 数据安全
+## 5. Data Security
 
-我们采取合理措施保护本应用本地数据的安全性（例如遵循 iOS 沙盒机制）。但请您理解，任何系统或设备都无法保证绝对安全。
+We take reasonable steps to protect local app data, including relying on iOS sandbox protections. However, no device or system can guarantee absolute security.
 
-建议您：
+We recommend that you:
 
-- 保护好设备解锁方式与 Apple ID；
-- 使用 iOS 提供的备份能力时，注意备份内容可能随 iCloud 备份同步到您的 Apple 账户（由 Apple 提供并受其政策约束）。
+- Protect your device with a secure unlock method;
+- Protect your Apple ID;
+- Review how your backups are handled if you use iCloud or other Apple backup features, which are governed by Apple's own policies.
 
-## 6. 数据保留与删除
+## 6. Data Retention and Deletion
 
-- 本应用生成与保存的数据由您控制，通常保留在您的设备上，直到您在应用内删除或卸载应用。
-- 卸载应用通常会移除本应用在设备上的本地数据（具体以 iOS 行为为准）。
+- Data created or stored by the App generally remains on your device until you delete it in the App or uninstall the App.
+- Uninstalling the App will usually remove the App's local data from your device, subject to iOS behavior.
 
-## 7. 儿童隐私
+## 7. Children's Privacy
 
-本应用面向一般用户使用。我们不会有意收集儿童的个人信息。
+The App is intended for general users. We do not knowingly collect personal information from children.
 
-## 8. 本政策的变更
+## 8. Changes to This Policy
 
-我们可能会在必要时更新本隐私政策。更新后会在本页面发布并更新“生效日期”。
+We may update this Privacy Policy when necessary. If we do, we will post the updated version on this page and update the effective date.
 
-## 9. 联系我们
+## 9. Contact Us
 
-如您对本隐私政策或本应用的隐私实践有任何疑问、意见或投诉，请通过以下方式联系我们：
+If you have any questions, comments, or complaints about this Privacy Policy or the App's privacy practices, please contact us:
 
-- 邮箱：nicedella2016@icloud.com
-- GitHub Issue：https://github.com/0owen/MeowShadowing/issues
+- Email: nicedella2016@icloud.com
+- GitHub Issues: https://github.com/0owen/MeowShadowing/issues

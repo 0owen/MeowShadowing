@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoewShadowing - 智能英语学习音频播放器</title>
+    <title>MeowShadowing - Shadowing Practice That Helps You Listen, Speak, and Remember</title>
     <style>
         :root {
             --primary-color: #007AFF;
             --text-color: #333;
+            --muted-color: #666;
             --bg-color: #f5f5f7;
+            --card-bg: #f9fafb;
         }
+        * { box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -19,109 +22,246 @@
             padding: 0;
         }
         header {
-            background-color: #fff;
-            padding: 2rem 1rem;
+            background: linear-gradient(180deg, #ffffff 0%, #f3f8ff 100%);
+            padding: 4.5rem 1rem 3.5rem;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .hero {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+        .eyebrow {
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        .hero h1 {
+            color: var(--primary-color);
+            font-size: clamp(2.2rem, 4vw, 3.5rem);
+            line-height: 1.15;
+            margin: 0 0 1rem;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--muted-color);
+            margin: 0 auto;
+            max-width: 760px;
+        }
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
         }
         .container {
-            max-width: 800px;
+            max-width: 1040px;
             margin: 2rem auto;
-            padding: 0 1rem;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            padding: 2rem;
+            padding: 0 1rem 3rem;
         }
-        h1 { color: var(--primary-color); }
-        h2 { border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-top: 2rem; }
+        .panel {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
         .feature-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
             margin-top: 1rem;
         }
         .feature-item {
-            background: #f9f9f9;
+            background: var(--card-bg);
             padding: 1rem;
-            border-radius: 8px;
+            border-radius: 10px;
             border-left: 4px solid var(--primary-color);
         }
-        footer {
-            text-align: center;
-            padding: 2rem;
-            font-size: 0.9rem;
-            color: #888;
+        .feature-item strong {
+            display: block;
+            margin-bottom: 0.4rem;
         }
-        .contact-info {
-            background: #eef6ff;
-            padding: 1rem;
-            border-radius: 8px;
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1rem;
             margin-top: 1rem;
         }
-        a { color: var(--primary-color); text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        .step {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 1rem;
+        }
+        .step-number {
+            display: inline-flex;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            background: var(--primary-color);
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        .support-box {
+            background: #eef6ff;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 0.75rem 1.05rem;
+            border-radius: 999px;
+            background: var(--primary-color);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .button-link.secondary {
+            background: #e8f1ff;
+            color: var(--primary-color);
+        }
+        a { color: var(--primary-color); }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem 3rem;
+            color: #888;
+            font-size: 0.95rem;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1> 小猫影子跟读</h1>
-    <p>专为英语学习者设计的智能音频播放器</p>
+    <div class="hero">
+        <div class="eyebrow">English Shadowing Practice</div>
+        <h1>Listen better. Speak more naturally. Remember more from every lesson.</h1>
+        <p>
+            MeowShadowing helps you turn your own audio and video into focused English practice.
+            Repeat difficult lines, follow the speaker sentence by sentence, record yourself,
+            and keep the words and phrases you want to remember.
+        </p>
+        <div class="hero-actions">
+            <a class="button-link secondary" href="Privacy.md">Privacy Policy</a>
+            <a class="button-link secondary" href="TermService.md">Terms of Service</a>
+        </div>
+    </div>
 </header>
 
 <div class="container">
-    <section id="marketing">
-        <h2>产品简介</h2>
-        <p> 小猫影子跟读是一款基于 AI 技术的英语学习音频播放工具。它不仅是一个播放器，更是你的私人语言教练。通过精准的词级字幕同步和智能词汇分析，让听力练习变得更高效、更有趣。</p>
+    <section class="panel" id="value">
+        <h2>Why Learners Use MeowShadowing</h2>
+        <p>
+            Most learners do not need another player with more buttons. They need a simpler way to understand real English,
+            repeat it with confidence, and build habits that actually stick.
+        </p>
+        <p>
+            MeowShadowing is built around that goal. It helps you slow down, notice what you missed,
+            practice the same sentence until it feels natural, and keep useful vocabulary in context instead of studying random word lists.
+        </p>
+    </section>
 
+    <section class="panel" id="benefits">
+        <h2>What You Get</h2>
         <div class="feature-list">
             <div class="feature-item">
-                <strong>词级高亮同步</strong>
-                <p>毫秒级字幕同步，播放时实时高亮当前单词，支持变速播放下的完美对齐。</p>
+                <strong>Clearer Listening</strong>
+                <p>Follow spoken English more easily by working through audio and video one sentence at a time.</p>
             </div>
             <div class="feature-item">
-                <strong>智能 CEFR 标注</strong>
-                <p>自动识别单词难度（A1-C2），帮助你快速定位生词，重点突破。</p>
+                <strong>More Natural Speaking</strong>
+                <p>Shadow real speech patterns to improve rhythm, stress, and pronunciation through repetition.</p>
             </div>
             <div class="feature-item">
-                <strong>跟读录音 (Shadowing)</strong>
-                <p>支持单句循环与跟读录音，对比原音，纠正发音，提升口语流利度。</p>
+                <strong>Better Retention</strong>
+                <p>Save useful words and lines while you study so your review stays connected to real content.</p>
             </div>
             <div class="feature-item">
-                <strong>生词本与闪卡</strong>
-                <p>一键收藏生词，支持基于间隔复习算法的闪卡练习，科学记忆单词。</p>
+                <strong>Practice with Your Own Content</strong>
+                <p>Learn from podcasts, lessons, interviews, or videos that match your interests and level.</p>
             </div>
             <div class="feature-item">
-                <strong>.mp3/mp4/mov等 格式支持</strong>
-                <p>支持导入常见的音频和视频格式，自动生成完美分割的字幕句子, 支持 apple 内置翻译。</p>
+                <strong>Less Friction, More Consistency</strong>
+                <p>Stay focused on short, repeatable practice sessions that fit naturally into daily study.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Private by Default</strong>
+                <p>Your learning workflow is designed to stay personal, so you can practice with confidence.</p>
             </div>
         </div>
     </section>
 
-    <section id="support">
-        <h2>技术支持 (Support)</h2>
-        <p>如果您在使用过程中遇到任何问题，或有任何功能建议，请通过以下方式联系我们：</p>
-        <div class="contact-info">
-            <p><strong>电子邮箱：</strong> <a href="mailto:nicedella2016@icloud.com">nicedella2016@icloud.com</a> </p>
-            <p><strong>GitHub Issue：</strong> <a href="https://github.com/0owen/MeowShadowing/issues" target="_blank">提交反馈</a></p>
+    <section class="panel" id="daily-flow">
+        <h2>A Simple Daily Practice Flow</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <strong>Bring in content you care about</strong>
+                <p>Use your own audio or video so practice feels relevant from the start.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <strong>Repeat what matters</strong>
+                <p>Loop difficult sentences and focus on the parts you want to understand or imitate.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <strong>Speak along and record yourself</strong>
+                <p>Practice active shadowing instead of passive listening to build fluency faster.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <strong>Review useful words and phrases</strong>
+                <p>Keep the language that matters to you and return to it later with context.</p>
+            </div>
         </div>
-        <p>我们的支持团队通常会在 24-48 小时内回复您的邮件。</p>
     </section>
 
-    <section id="privacy">
-        <h2>隐私政策简述</h2>
-        <p>我们非常重视您的隐私。 小猫影子跟读是一款本地优先的应用：</p>
-        <ul>
-            <li>所有的音频处理和转录均在本地完成。</li>
-            <li>您的录音数据和学习进度仅存储在您的设备上。</li>
-            <li>我们不会收集或上传您的任何个人敏感信息。</li>
-        </ul>
+    <section class="panel" id="learner-first">
+        <h2>Built for Real Study, Not Just Playback</h2>
+        <p>
+            MeowShadowing is for learners who want active practice, not background listening.
+            Whether you are improving pronunciation, training your ear, or collecting useful expressions,
+            the app is designed to help each session lead to visible progress.
+        </p>
+        <div class="links">
+            <a class="button-link secondary" href="Privacy.md">Privacy Policy</a>
+            <a class="button-link secondary" href="TermService.md">Terms of Service</a>
+        </div>
+    </section>
+
+    <section class="panel" id="support">
+        <h2>Support</h2>
+        <p>If you run into a problem or want to suggest a feature, contact us here:</p>
+        <div class="support-box">
+            <p><strong>Email:</strong> <a href="mailto:nicedella2016@icloud.com">nicedella2016@icloud.com</a></p>
+            <p><strong>GitHub Issues:</strong> <a href="https://github.com/0owen/MeowShadowing/issues" target="_blank" rel="noopener noreferrer">https://github.com/0owen/MeowShadowing/issues</a></p>
+        </div>
+        <p>Support requests are typically answered within 24 to 48 hours.</p>
     </section>
 </div>
 
 <footer>
-    <p>&copy; 2026  小猫影子跟读. All rights reserved.</p>
+    <p>&copy; 2026 MeowShadowing. All rights reserved.</p>
 </footer>
 
 </body>
