@@ -2,7 +2,7 @@
 
 Effective date: 2026-07-18
 
-We take your privacy seriously. MeowShadowing (the "App") is a **local-first** English learning app. Audio processing, subtitle or transcription generation, and learning data creation and storage are designed to happen on your device whenever possible. A small number of optional AI-assisted practice features send limited text data to our server, as described in Section 3.
+We take your privacy seriously. MeowShadowing (the "App") is a **local-first** English learning app. Audio processing, subtitle or transcription generation, learning analysis, and learning data creation and storage happen on your device. The only text that leaves your device is the sentence text used for optional real-voice playback, as described in Section 1.3.
 
 This Privacy Policy explains what information we collect, how it is used and stored, and how you can contact us.
 
@@ -24,15 +24,10 @@ To provide the App's core features, the following data may be stored locally on 
 - Subtitle or transcription results, word-level timing data, and highlighting information;
 - Study progress, saved vocabulary, flashcards, and review history.
 
-### 1.3 Data Sent to Our Server for AI Practice Features
-Some practice features are powered by our server. When you use them, the App sends the following **text** data (never your audio) to our server for processing:
+### 1.3 Data Sent to Our Server for Real-Voice Playback
+When you play a practice sentence with a real voice, the App sends the **text of that sentence** (never your audio, recordings, or transcripts) to our server, which synthesizes the audio and returns it. Nothing else you create in the App is uploaded.
 
-- **Voice journal analysis**: the on-device transcript of your voice journal, so the server can suggest more natural phrasings and matching practice sentences.
-- **Speaking practice evaluation**: the on-device transcript of your spoken answer and basic fluency metrics (e.g. pause counts), so the server can generate feedback.
-- **Daily topic generation**: a small sample of sentences from your practice library (up to about 20), so the server can propose a related speaking topic.
-- **Real-voice playback (TTS)**: the text of the sentence to be spoken, so the server can synthesize audio.
-
-Requests carry a random per-install identifier (e.g. `ios-` followed by random characters) used for rate limiting and abuse prevention. It is generated on your device, is not derived from your identity or hardware, and is not linked to any account (no account exists). Server processing is transient: inputs are used to produce the result returned to your device and are not used to build a profile of you, and are not sold or shared for advertising.
+Requests carry a random per-install identifier (e.g. `ios-` followed by random characters) used for rate limiting and abuse prevention. It is generated on your device, is not derived from your identity or hardware, and is not linked to any account (no account exists). Server processing is transient: the text is used only to produce the returned audio, is not retained, is not used to build a profile of you, and is not sold or shared for advertising.
 
 ### 1.4 Podcast Browsing and Downloads
 Podcast feeds, episode audio, and artwork are relayed through our server so they remain reachable on restricted networks. The only information transmitted is the address of the requested podcast resource and standard network request metadata.
@@ -57,7 +52,7 @@ Information is used to:
 - Generate and display vocabulary difficulty annotations such as CEFR levels;
 - Provide shadowing recording, sentence looping, and source-audio comparison features;
 - Maintain vocabulary lists and flashcard review data;
-- Provide the AI practice features described in Section 1.3 (journal feedback, speaking evaluation, daily topics, real-voice playback).
+- Provide real-voice playback as described in Section 1.3.
 
 ## 4. Third-Party Services and Data Sharing
 
@@ -86,7 +81,7 @@ We recommend that you:
 
 - Data created or stored by the App generally remains on your device until you delete it in the App or uninstall the App.
 - Uninstalling the App will usually remove the App's local data from your device, subject to iOS behavior.
-- Text sent to our server for AI practice features (Section 1.3) is processed transiently to produce the returned result and is not retained as a user profile.
+- Sentence text sent to our server for real-voice playback (Section 1.3) is processed transiently to produce the returned audio and is not retained.
 
 ## 7. Children's Privacy
 
